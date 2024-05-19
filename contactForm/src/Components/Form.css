@@ -1,0 +1,21 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-xl, 32px);
+  width: 295px;
+  height: 839px;
+  border: silver 1px solid;
+}
+
+.form h1 {
+  width: 100%;
+  color: var(--color-dark-grey, #2a4144);
+  /* heading */
+  font-family: Karla;
+  font-size: var(--font-size-heading, 32px);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 32px */
+  letter-spacing: -1px;
+}
