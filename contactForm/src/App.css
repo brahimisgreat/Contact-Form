@@ -1,11 +1,1 @@
-.app {
-  display: flex;
-  padding: var(--spacing-l, 24px);
-  flex-direction: column;
-  align-items: flex-start;
-  gap: var(--spacing-2xl, 40px);
-  border-radius: var(--spacing-m, 16px);
-  background: var(--color-pure-white, #fff);
-  width: 295px;
-  height: 1026px;
-}
+

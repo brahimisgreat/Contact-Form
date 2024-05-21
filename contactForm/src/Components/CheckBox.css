@@ -1,0 +1,19 @@
+.checkBox {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-m, 16px);
+  width: 295px;
+  height: 48px;
+  
+}
+
+.checkBox label{
+    color: var(--color-dark-grey, #2A4144);
+
+/* body-s */
+font-family: Karla;
+font-size: var(--font-size-body-s, 16px);
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+}
