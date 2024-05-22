@@ -22,7 +22,7 @@ export const Form = () => {
           <label htmlFor="name">Query Type <span>*</span></label>
           <div className="radioSelects">
             <label htmlFor="general">General Enquiry</label>
-            <input type="radio" id="general" name="genral" required />
+            <input type="radio" id="general" name="support" required />
           </div>
           <div className="radioSelects">
             <label htmlFor="support">Support Request </label>

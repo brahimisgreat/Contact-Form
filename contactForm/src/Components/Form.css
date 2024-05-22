@@ -59,7 +59,7 @@
   color: var(--color-dark-grey, #2a4144);
 
   /* body-s */
-  font-family: Karla;
+  font-family: 'Karla';
   font-size: var(--font-size-body-s, 16px);
   font-style: normal;
   font-weight: 400;
@@ -118,4 +118,17 @@
 
 span{
   color: #0c7d69;
+}
+
+input[type='checkbox'] {
+  accent-color: #0c7d69;
+}
+
+input[type='text']:focus, input[type='email']:focus{
+    border: 1px solid #0c7d69;
+    box-shadow: 0 0 3px #0c7d69;
+    outline: none;
+}
+
+input[type='radio']:checked{
 }
