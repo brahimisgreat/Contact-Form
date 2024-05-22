@@ -17,3 +17,8 @@ font-style: normal;
 font-weight: 400;
 line-height: 150%; /* 24px */
 }
+
+.check{
+  width: 24px;
+  height: 24px;
+}

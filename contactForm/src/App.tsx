@@ -5,13 +5,11 @@ import { Button } from "./Components/Button";
 
 function App() {
   return (
-    <div className="app">
       <form>
         <Form />
         <CheckBox />
         <Button />
       </form>
-    </div>
   );
 }
 

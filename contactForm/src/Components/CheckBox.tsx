@@ -4,8 +4,8 @@ import './CheckBox.css'
 export const CheckBox = () => {
   return (
     <div className='checkBox'>
-        <input type="checkbox" name="consent" />
-        <label>I consent to being conteacted by the team</label>
+        <input className='check' type="checkbox" name="consent" />
+        <label>I consent to being conteacted by the team <span>*</span></label>
     </div>
   )
 }
