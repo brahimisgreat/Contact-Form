@@ -7,3 +7,21 @@ form {
   border-radius: var(--spacing-m, 16px);
   background: var(--color-pure-white, #fff);
 }
+
+@media (min-width: 768px) {
+  form {
+    display: flex;
+    width: 690px;
+    padding: var(--spacing-2xl, 40px);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-2xl, 40px);
+    flex-shrink: 0;
+  }
+
+  .form {
+    width: 610px;
+    height: 557px;
+    border: solid 1px #86a2a5;
+  }
+}
