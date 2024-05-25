@@ -6,7 +6,7 @@ export const Form = () => {
     <div className="form">
       <h1>Contact Us</h1>
       <div className="inputs">
-        <div className="names">
+        <div className="fl">
           <div className="fields">
             <label htmlFor="name">
               First Name <span>*</span>
@@ -30,7 +30,7 @@ export const Form = () => {
           <label htmlFor="name">
             Query Type <span>*</span>
           </label>
-          <div className="rdContainer">
+          <div className="radioSelectscontainer">
             <div className="radioSelects">
               <label htmlFor="general">General Enquiry</label>
               <input type="radio" id="general" name="support" required />
