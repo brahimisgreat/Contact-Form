@@ -1,4 +1,3 @@
-import React from "react";
 import "./Form.css";
 
 export const Form = () => {
@@ -20,11 +19,11 @@ export const Form = () => {
             <input type="text" id="LastName" name="LastName" required />
           </div>
         </div>
-        <div className="fields">
+        <div className="fields" id="emailAddress">
           <label htmlFor="name">
             Email Address <span>*</span>
           </label>
-          <input type="email" id="email" name="email" required />
+          <input    type="email" id="email" name="email" required />
         </div>
         <div className="radioInputs">
           <label htmlFor="name">

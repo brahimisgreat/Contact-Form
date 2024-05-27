@@ -2,9 +2,9 @@
   display: flex;
   align-items: center;
   gap: var(--spacing-m, 16px);
-  width: 295px;
   height: 48px;
-  
+  justify-content: flex-start;
+  margin-left: 0.8rem;
 }
 
 .checkBox label{

@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   gap: var(--spacing-xl, 32px);
+  justify-content: flex-start
 }
 
 .form h1 {
@@ -27,6 +28,7 @@
   flex-direction: column;
   align-items: flex-start;
   gap: var(--spacing-xs, 8px);
+  width: 100%;
 }
 
 .fields input {
@@ -39,8 +41,8 @@
   border-radius: 8px;
   border: 1px solid var(--color-medium-grey, #86a2a5);
   background: var(--color-pure-white, #fff);
-  width: 15.4375rem;
-  height: 1.6875rem;
+  width: 295px;
+  height: 51px;
 }
 .fields input:focus {
   border: none;
@@ -51,14 +53,9 @@
   flex-direction: column;
   align-items: flex-start;
   gap: var(--spacing-m, 16px);
-  color: var(--color-dark-grey, #2a4144);
 
   /* body-s */
-  font-family: "Karla";
-  font-size: var(--font-size-body-s, 16px);
-  font-style: normal;
-  font-weight: 400;
-  line-height: 150%; /* 24px */
+  width: 100%;
 }
 
 .radioSelects {
@@ -84,7 +81,7 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
-  width: 18.4375rem;
+  width: 100%;
 }
 
 .textSquare {
@@ -92,8 +89,7 @@
   flex-direction: column;
   align-items: flex-start;
   gap: var(--spacing-xs, 8px);
-  width: 295px;
-  height: 272px;
+  width: 100%;
 }
 
 .textSquare label {
@@ -110,11 +106,9 @@
   align-items: flex-start;
   gap: var(--spacing-m, 16px);
   align-self: stretch;
-  width: 247px;
+  width: 100%;
   height: 216px;
   border-radius: 8px;
-  border: 1px solid var(--color-medium-grey, #86a2a5);
-  background: var(--color-pure-white, #fff);
 }
 
 span {
@@ -132,8 +126,6 @@ input[type="email"]:focus {
   outline: none;
 }
 
-input[type="radio"]:checked {
-}
 
 .fl{  
   display: flex;

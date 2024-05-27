@@ -2,24 +2,71 @@ form {
   display: flex;
   padding: var(--spacing-l, 24px);
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   gap: var(--spacing-2xl, 40px);
   border-radius: var(--spacing-m, 16px);
   background: var(--color-pure-white, #fff);
 }
 
+/* tablet */
 @media (min-width: 768px) {
   form {
-   width: 690px;
-  }
-
-  .form{
-    border: solid 1px var(--color-medium-grey, #86a2a5);
     width: 690px;
   }
 
-  .fl{
+  .fl {
     display: flex;
     flex-direction: row !important;
+  }
+
+  #email {
+    width: 100%;
+  }
+  #emailAddress {
+  }
+
+  .radioSelectscontainer {
+    flex-direction: row !important;
+    width: 100%;
+  }
+  .radioSelects {
+    flex-grow: 1;
+  }
+
+  .textSquare {
+    height: 132px;
+  }
+
+   form .checkBox {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1400px) {
+  /* Desktop */
+  form {
+    display: flex;
+    width: 736px;
+    padding: var(--spacing-2xl, 40px);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-2xl, 40px);
+  }
+
+  .form{
+    width: 656px;
+  }
+
+  .fl{
+    width: 100%;
+    justify-content: space-between;
+
+  }
+
+  .fl .fields{
+  }
+
+  .fl .fields input {
+    width: 100%;
   }
 }
