@@ -15,3 +15,7 @@ button {
   justify-content: center;
   width: 100%;
 }
+button:hover {
+  background: var(--color-green-hover, #0c7d69);
+  cursor: pointer;
+}
