@@ -29,9 +29,7 @@ form {
   #email {
     width: 100%;
   }
-  #emailAddress {
-  }
-
+ 
   .radioSelectscontainer {
     flex-direction: row !important;
     width: 100%;
@@ -45,7 +43,12 @@ form {
   }
 
    form .checkBox {
-    width: 100%;
+    width: 90%;
+  }
+
+  form .success{
+    position: absolute;
+    left: 20%;
   }
 }
 
@@ -76,4 +79,11 @@ form {
   .fl .fields input {
     width: 100%;
   }
+
+  form .success{
+    position: absolute;
+    left: 38%;
+  }
 }
+
+  

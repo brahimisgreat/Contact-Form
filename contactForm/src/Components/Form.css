@@ -50,6 +50,10 @@
   border: none;
 }
 
+.fields input:hover{
+  cursor: pointer;
+}
+
 .radioInputs {
   display: flex;
   flex-direction: column;

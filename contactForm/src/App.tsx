@@ -6,7 +6,7 @@ import { Success } from "./Components/Success";
 import { useState } from "react";
 
 function App() {
-  const [success, setSuccess] = useState(false);
+  const [success, setSuccess] = useState(true);
 
    function handleSubmit (e){
     e.preventDefault();
