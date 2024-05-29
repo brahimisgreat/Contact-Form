@@ -1,4 +1,3 @@
-import React from "react";
 import "./success.css";
 import icon from '../assets/images/icon-success-check.svg'
 export const Success = () => {
